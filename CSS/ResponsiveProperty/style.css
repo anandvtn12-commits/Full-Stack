@@ -1,0 +1,21 @@
+#badabox{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: auto;
+    padding: 20px;
+
+    .box{
+        width: 200px;
+        height: 300px;
+        border: 1px solid black;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    #badabox{
+        grid-template-columns: auto auto auto;
+        row-gap: 20px;
+    }
+}
+
+@media screen and ()

@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Assignment</title>
+</head>
+<body>
+    <b>Task 1:</b>
+    <br />
+    <br />
+   <table border="1" cellpadding="20" cellspacing="0">
+        <tr>
+            <td>
+                <h1>Admin Login Page</h1>
+                
+                <form>
+                    <table border="0" cellpadding="10" cellspacing="0">
+                        <tr>
+                            <td><label for="username"><h3>Username:</h3></label></td>
+                            <td><input type="text" id="username" name="username" size="40"></td>
+                        </tr>
+                    
+                        <tr>
+                            <td><label for="password"><h3>Password:</h3></label></td>
+                            <td><input type="password" id="password" name="password" size="40"></td>
+                        </tr>
+                
+                        <tr>
+                            <td colspan="2">
+                                <input type="submit" value="Submit" style="font-size: 18px; padding: 5px 15px;">
+                                <input type="reset" value="Reset" style="font-size: 18px; padding: 5px 15px;">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+                
+            </td>
+        </tr>
+    </table>
+    <br />
+    <br />
+
+    <b>Task 2:</b>
+    <br />
+    <br />
+
+    <form>
+        <fieldset>
+            <h2>Pizza Order Form</h2>
+            <p>
+                <label>First Name: <input type="text" name="firstname"></label>
+            </p>
+            <p>
+                <label>Last Name: <input type="text" name="lastname"></label>
+            </p>
+            <p>
+                <label>Email Address: <input type="email" name="email"></label>
+            </p>
+            <p>
+                <label>Contact Number: <input type="text" name="contact"></label>
+            </p>
+            <p>
+                <label>Preferred Delivery Date: <input type="date" name="delivery_date" placeholder="mm/dd/yyyy"></label>
+            </p>
+            
+            <p>Size:</p>
+            <p>
+                <label><input type="radio" name="size" value="Small"> Small</label>
+                <label><input type="radio" name="size" value="Medium"> Medium</label>
+                <label><input type="radio" name="size" value="Large"> Large</label>
+            </p>
+
+            <p>Flavor:</p>
+            <p>
+                <label><input type="checkbox" name="flavor" value="Hawaiian"> Hawaiian (Php 150.00)</label>
+                <input type="number" name="qty_hawaiian" value="1" min="0" style="width: 50px;">
+            </p>
+            <p>
+                <label><input type="checkbox" name="flavor" value="Pepperoni"> Pepperoni (Php 140.00)</label>
+                <input type="number" name="qty_pepperoni" value="1" min="0" style="width: 50px;">
+            </p>
+            <p>
+                <label><input type="checkbox" name="flavor" value="Vegetable"> Vegetable (Php 130.00)</label>
+                <input type="number" name="qty_vegetable" value="1" min="0" style="width: 50px;">
+            </p>
+
+            <p>
+                <label>Credit Card Number: <input type="text" name="cc_number"></label>
+            </p>
+            <p>
+                <label>PIN: <input type="password" name="pin" maxlength="4" style="width: 60px;"></label>
+            </p>
+            <p>
+                <label>Additional Note:<br>
+                    <textarea name="additional_note" rows="4" cols="40"></textarea>
+                </label>
+            </p>
+
+            <p>
+                <input type="submit" value="Submit Order">
+            </p>
+        </fieldset>
+    </form>
+    <br />
+    <br />
+
+    <b>Task 3:</b>
+    <br />
+    <br />
+    <table border="1" cellpadding="20" cellspacing="0" width="600" align="center">
+        <tr>
+            <td>
+                <center>
+                    <h2>Registration Form</h2>
+                    <p><small>Of course, all submitted information is kept in the strictest confidence.<br>
+                    You always retain control of your information with D.W. Simpson & Co.<br>
+                    <strong>Our services are always at no cost to you.</strong></small></p>
+                </center>
+
+                <br>
+
+                <form>
+                    <table border="0" cellpadding="5" cellspacing="0" width="100%">
+                        <!-- Name -->
+                        <tr>
+                            <td width="25%"><strong>Name:</strong></td>
+                            <td colspan="3"><input type="text" size="50"></td>
+                        </tr>
+                        
+                        <tr>
+                            <td><strong>Address:</strong></td>
+                            <td colspan="3"><input type="text" size="50"></td>
+                        </tr>
+                        
+                        <tr>
+                            <td><strong>City:</strong></td>
+                            <td><input type="text" size="20"></td>
+                            <td><strong>State/Province:</strong></td>
+                            <td><input type="text" size="15"></td>
+                        </tr>
+                        
+                        <tr>
+                            <td><strong>Zip Code:</strong></td>
+                            <td colspan="3"><input type="text" size="15"></td>
+                        </tr>
+                        
+                        <tr>
+                            <td><strong>Country:</strong></td>
+                            <td colspan="3"><input type="text" size="20"></td>
+                        </tr>
+                        
+                        <tr>
+                            <td><strong>Phone: (H)</strong></td>
+                            <td><input type="text" size="20"></td>
+                            <td><strong>Fax:</strong></td>
+                            <td><input type="text" size="15"></td>
+                        </tr>
+                        
+                        <tr>
+                            <td><strong>Phone: (W)</strong></td>
+                            <td colspan="3">
+                                <input type="text" size="20"> 
+                                <small>(if able to speak freely)</small>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td><strong>Email:</strong></td>
+                            <td colspan="3"><input type="text" size="50"></td>
+                        </tr>
+                        
+                        <tr>
+                            <td><strong>Company Name:</strong></td>
+                            <td colspan="3">
+                                <input type="text" size="35"> 
+                                <small>(optional)</small>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><strong>Desired Region:</strong></td>
+                            <td><input type="text" size="20"></td>
+                            <td><strong>Other:</strong></td>
+                            <td><input type="text" size="15"></td>
+                        </tr>
+                        
+                        <tr>
+                            <td colspan="4"><br><strong>Professional designations earned:</strong></td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">
+                                <table border="0" cellpadding="3" width="100%">
+                                    <tr>
+                                        <td><input type="checkbox"> College Student</td>
+                                        <td><input type="checkbox"> Actuarial Student</td>
+                                        <td><input type="checkbox"> ACAS</td>
+                                        <td><input type="checkbox"> FCAS</td>
+                                        <td><input type="checkbox"> ASA</td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="checkbox"> FSA</td>
+                                        <td><input type="checkbox"> EA</td>
+                                        <td><input type="checkbox"> CERA</td>
+                                        <td><input type="checkbox"> MBA</td>
+                                        <td><input type="checkbox"> MAAA</td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="checkbox"> FIA</td>
+                                        <td><input type="checkbox"> FCIA</td>
+                                        <td><input type="checkbox"> FFA</td>
+                                        <td><input type="checkbox"> Financial Engineer</td>
+                                        <td><input type="checkbox"> MS</td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="checkbox"> Ph.D</td>
+                                        <td><input type="checkbox"> Data Mining</td>
+                                        <td><input type="checkbox"> Quant</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td colspan="4"><br><strong>Other Designations:</strong></td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">
+                                <input type="text" size="70">
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td colspan="4" align="center"><br>
+                                <input type="submit" value="Submit Registration">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+
+            </td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <b>Task 4:</b>
+    <form>
+      <table border="1" cellpadding="4" cellspacing="1" width="0" align="center">
+        <tr>
+          <th colspan="4"><h3 align="center">Registration Form</h3></th>
+        </tr>
+        <tr>
+          <td><label>Student Name</label></td>
+            <td><input type="text" placeholder="First Name"></td>
+            <td><input type="text" placeholder="Middle Name"></td>
+            <td><input type="text" placeholder="Last Name"></td>
+            </td>
+        </tr>
+
+        <tr>
+          <td><label>Father's Name</label></td>
+          <td><input type="text" placeholder="Enter your father's Name"></td>
+          <td><label>Mother's Name</label></td>
+          <td><input type="text" placeholder="Enter your mother's Name"></td>      
+        </tr>
+
+        <tr>
+          <td><label>Date of Birth</label></td>
+          <td><input type="date"></td>
+          <td><label>Gender</label></td>
+          <td>
+            <label for="male">Male</label> <input type="radio" name="gender" id="male"> 
+            <label for="female">Female</label> <input type="radio" name="gender" id="female"> 
+          </td>
+        </tr>
+
+        <tr>
+          <td><label>Category</label></td>
+            <td>
+              <label for="gen">Gen</label> <input type="radio" name="category" id="gen"> 
+              <label for="obc">OBC</label> <input type="radio" name="category" id="obc"> 
+              <label for="scst">SC/ST</label> <input type="radio" name="category" id="scst"> 
+            </td>
+          <td><label>Handicapped</label></td>
+            <td>
+              <label for="handi_yes">Yes</label> <input type="radio" name="handicapped" id="handi_yes"> 
+              <label for="handi_no">No</label> <input type="radio" name="handicapped" id="handi_no"> 
+            </td>
+        </tr>
+
+        <tr>
+          <td><label>Ex-Serviceman</label></td>
+          <td>
+            <label for="ex_yes">Yes</label> <input type="radio" name="ex_service" id="ex_yes"> 
+            <label for="ex_no">No</label> <input type="radio" name="ex_service" id="ex_no"> 
+          </td>
+          <td><label>EWS</label></td>
+            <td>
+              <label for="ews_yes">Yes</label> <input type="radio" name="ews" id="ews_yes"> 
+              <label for="ews_no">No</label> <input type="radio" name="ews" id="ews_no"> 
+            </td>
+        </tr>
+
+        <tr>
+          <td><label>Email ID</label></td>
+          <td><input type="email"></td>
+          <td><label>Mobile No.</label></td>
+          <td><input type="tel"></td>
+        </tr>
+
+        <tr>
+          <td><label>State</label></td>
+            <td>
+              <select>
+                <option>Select any One</option>
+              </select>
+            </td>
+          <td><label>City</label></td>
+            <td>
+              <select>
+                <option>Select any One</option>
+              </select>
+            </td>
+        </tr>
+
+        <tr>
+          <td><label for="up">Upload Photo</label></td>
+          <td><input type="file" name="up" id="up"></td>
+          <td><label>Upload Signature</label></td>
+          <td><input type="file"></td>
+        </tr>
+
+        <tr>
+          <td colspan="4" align="center">
+            <button>Submit</button>
+          </td>
+        </tr>    
+      </table>
+    </form>
+    <br>
+    <br>
+    <b>Task 5:</b>
+    <br>
+    <br>
+    <fieldset>
+    <h1 align="center">APPLICATION FORM</h1>
+
+    <form>
+        <fieldset>
+            <legend>Personal Details</legend>
+            <table width="100%" cellpadding="5">
+                <tr>
+                    <td><label for="title">Title:</label></td>
+                    <td>
+                        <select id="title">
+                            <option>--Select--</option>
+                            <option>Mr.</option>
+                            <option>Ms.</option>
+                            <option>Mrs.</option>
+                        </select>
+                    </td>
+                    <td><label>Care Of:</label></td>
+                    <td>
+                        <input type="radio" id="parent" name="care_of">
+                        <label for="parent">Parent</label>
+                        <input type="radio" id="guardian" name="care_of">
+                        <label for="guardian">Guardian</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="fullname">Applicant's Full Name:</label></td>
+                    <td><input type="text" id="fullname"></td>
+                    <td><label for="dob">Date of Birth:</label></td>
+                    <td><input type="text" id="dob" placeholder="dd / mm / yyyy"></td>
+                </tr>
+                <tr>
+                    <td><label for="father">Father's Name:</label></td>
+                    <td><input type="text" id="father"></td>
+                    <td><label for="mother">Mother's Name:</label></td>
+                    <td><input type="text" id="mother"></td>
+                </tr>
+                <tr>
+                    <td><label>Gender:</label></td>
+                    <td>
+                        <input type="radio" id="male" name="gender">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender">
+                        <label for="female">Female</label>
+                        <input type="radio" id="others" name="gender">
+                        <label for="others">Others</label>
+                    </td>
+                    <td><label for="category">Category:</label></td>
+                    <td>
+                        <select id="category">
+                            <option>--Select--</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="marital">Marital Status:</label></td>
+                    <td>
+                        <select id="marital">
+                            <option>--Select--</option>
+                        </select>
+                    </td>
+                    <td><label>Ex-Serviceman:</label></td>
+                    <td>
+                        <input type="radio" id="ex_no" name="ex_service">
+                        <label for="ex_no">No</label>
+                        <input type="radio" id="ex_yes" name="ex_service">
+                        <label for="ex_yes">Yes</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Handicapped:</label></td>
+                    <td>
+                        <input type="radio" id="handi_no" name="handi">
+                        <label for="handi_no">No</label>
+                        <input type="radio" id="handi_yes" name="handi">
+                        <label for="handi_yes">Yes</label>
+                    </td>
+                    <td><label for="religion">Religion:</label></td>
+                    <td>
+                        <select id="religion">
+                            <option>--Select--</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>EWS:</label></td>
+                    <td colspan="3">
+                        <input type="radio" id="ews_no" name="ews">
+                        <label for="ews_no">No</label>
+                        <input type="radio" id="ews_yes" name="ews">
+                        <label for="ews_yes">Yes</label>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <br>
+        <fieldset>
+            <legend>Contact Details</legend>
+            <table width="100%" cellpadding="5">
+                <tr>
+                    <td><label for="mobile">Mobile Number:</label></td>
+                    <td><input type="text" id="mobile"></td>
+                    <td><label for="email">Email ID:</label></td>
+                    <td><input type="email" id="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="address1">Address Line 1:</label></td>
+                    <td><input type="text" id="address1"></td>
+                    <td><label for="address2">Address Line 2:</label></td>
+                    <td><input type="text" id="address2"></td>
+                </tr>
+                <tr>
+                    <td><label for="city">City:</label></td>
+                    <td><input type="text" id="city"></td>
+                    <td><label for="state">State:</label></td>
+                    <td>
+                        <select id="state">
+                            <option>--Select--</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="pincode">Pin Code:</label></td>
+                    <td colspan="3"><input type="text" id="pincode"></td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <br>
+        <fieldset>
+        <legend>Qualification Details</legend>
+        <table border="0" cellpadding="5" cellspacing="0">
+            <th>
+                <tr>
+                    <th>Sr. No.</th>
+                    <th>Qualification</th>
+                    <th>Board/University</th>
+                    <th>Passing Year</th>
+                    <th>Max Marks</th>
+                    <th>Marks Obtain</th>
+                    <th>Percentage</th>
+                </tr>
+            </th>
+            <tbody>
+        
+                <tr>
+                    <td>1</td>
+                    <td>
+                        <select name="qualification_1">
+                            <option value="">-Select-</option>
+                            <option value="10th">10th / Matric</option>
+                            <option value="12th">12th / Intermediate</option>
+                            <option value="graduation">Graduation</option>
+                        </select>
+                    </td>
+                    <td><input type="text" name="board_1"></td>
+                    <td><input type="text" name="passing_year_1" value="1990"></td>
+                    <td><input type="text" name="max_marks_1" value="4"></td>
+                    <td><input type="text" name="marks_obtain_1" value="2"></td>
+                    <td><input type="text" name="percentage_1" value="50%"></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td>
+                        <select name="qualification_2">
+                            <option value="">-Select-</option>
+                        </select>
+                    </td>
+                    <td><input type="text" name="board_2"></td>
+                    <td><input type="text" name="passing_year_2"></td>
+                    <td><input type="text" name="max_marks_2"></td>
+                    <td><input type="text" name="marks_obtain_2"></td>
+                    <td><input type="text" name="percentage_2"></td>
+                </tr>
+                
+                <tr>
+                    <td>3</td>
+                    <td>
+                        <select name="qualification_3">
+                            <option value="">-Select-</option>
+                        </select>
+                    </td>
+                    <td><input type="text" name="board_3"></td>
+                    <td><input type="text" name="passing_year_3"></td>
+                    <td><input type="text" name="max_marks_3"></td>
+                    <td><input type="text" name="marks_obtain_3"></td>
+                    <td><input type="text" name="percentage_3"></td>
+                </tr>
+                
+                <tr>
+                    <td>4</td>
+                    <td>
+                        <select name="qualification_4">
+                            <option value="">-Select-</option>
+                        </select>
+                    </td>
+                    <td><input type="text" name="board_4"></td>
+                    <td><input type="text" name="passing_year_4"></td>
+                    <td><input type="text" name="max_marks_4"></td>
+                    <td><input type="text" name="marks_obtain_4"></td>
+                    <td><input type="text" name="percentage_4"></td>
+                </tr>
+            </tbody>
+        </table>
+        </fieldset>
+        
+        <fieldset>
+        <legend>Language Knowlege</legend>
+        <table border="0" cellpadding="5" cellspacing="0" width="100%">
+            <th>
+                <tr>
+                    <th align="left">Language</th>
+                    <th align="left">Reading</th>
+                    <th align="left">Writing</th>
+                    <th align="left">Spoken</th>
+                </tr>
+            </th>
+            <tbody>
+                <tr>
+                    <td>English</td>
+                    <td><input type="checkbox" name="lang_english_read"></td>
+                    <td><input type="checkbox" name="lang_english_write"></td>
+                    <td><input type="checkbox" name="lang_english_speak"></td>
+                </tr>
+                <tr>
+                    <td>Hindi</td>
+                    <td><input type="checkbox" name="lang_hindi_read"></td>
+                    <td><input type="checkbox" name="lang_hindi_write"></td>
+                    <td><input type="checkbox" name="lang_hindi_speak"></td>
+                </tr>
+                <tr>
+                    <td>Urdu</td>
+                    <td><input type="checkbox" name="lang_urdu_read"></td>
+                    <td><input type="checkbox" name="lang_urdu_write"></td>
+                    <td><input type="checkbox" name="lang_urdu_speak"></td>
+                </tr>
+            </tbody>
+            </table>
+            </fieldset>
+
+        <h3>Identification Details</h3>
+        <table border="0" cellpadding="5">
+            <tr>
+                <td><label for="aadhar">Aadhar Card Number:</label></td>
+                <td><input type="text" id="aadhar" name="aadhar"></td>
+                <td><label for="pan">PAN Card Number:</label></td>
+                <td><input type="text" id="pan" name="pan"></td>
+            </tr>
+            <tr>
+                <td><label for="photo">Upload Photo:</label></td>
+                <td><input type="file" id="photo" name="photo"></td>
+                <td><label for="signature">Upload Signature:</label></td>
+                <td><input type="file" id="signature" name="signature"></td>
+            </tr>
+        </table>
+
+        <br>
+        <button type="submit">Submit</button>
+        <button type="button">Back</button>
+        </form>
+    </form>        
+    </fieldset>    
+    
+    <br>
+    <br>  
+    
+    <b>Task 6:</b>
+    <br>
+    <table width="1000">
+        <tr>
+            <td>
+                <img src="Screenshot 2026-09-20 113907.png" 
+                alt="" 
+                width="700px"
+                height="800px"
+                >
+            </td>
+            <td>
+                <h2 align="center">Doctor Appointment Form</h2>
+                <hr color="red">
+                <table width="700">
+                    <tr>
+                        <td><label for="date">Appointment Date</label></td>
+                        <td><input type="date" name="date" id="date"></td>
+                    </tr>
+                    <tr>
+                        <td><br></td>
+                    </tr>
+                    <tr>
+                        <td><label for="time">Appointment Time</label></td>
+                        <td><input type="time" name="time" id="time"></td>
+                    </tr>
+                    <tr>
+                        <td><br></td>
+                    </tr>
+                    <tr>
+                        <td><label for="name">Name</label></td>
+                        <td><input type="text" name="fname" id="name" placeholder="First"></td>
+                        <td><input type="text" name="lname" id="name" placeholder="Last"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="gender">Gender</label></td>
+                        <td>
+
+                            <label for="male">Male</label>
+                            <input type="radio" name="gender" id="male" value="male">
+
+                            <label for="female">Female</label>
+                            <input type="radio" name="gender" id="female" value="female">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="phonemm">Phone</label></td>
+                        <td><input type="text" name="cllh" id="phonemm" placeholder="####"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="addresxx">Address</label></td>
+                        <td><input type="text" name="cityadd" id="addresxx" placeholder="city"></td>
+                        <td><input type="text" name="state" id="addresxx" placeholder="State"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="query">Your Query</label></td>
+                        <td><textarea rows="4" cols="30"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td align="top"><label for="typeapp">Appointment type</label></td>
+                        <td>
+                            <p>Select which appointment type(s) you require</p>
+
+                            <input type="checkbox" name="Cervixcheckup" id="Cervixcheckup">
+                            <label for="Cervixcheckup">Cervix checkup</label>
+                            <br>
+                            <input type="checkbox" name="Heartcheckup" id="Heartcheckup">
+                            <label for="Heartcheckup">Heart checkup</label>
+                            <br>
+                            <input type="checkbox" name="Eyecheckup" id="Eyecheckup">
+                            <label for="Eyecheckup">Eye checkup</label>
+                            <br>
+                            <input type="checkbox" name="HearingTest" id="HearingTest">
+                            <label for="HearingTest">Hearing Test</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><br><br></td>
+                    </tr>
+                    <tr align="center">
+                        <td colspan="2">
+                            <button name="sened">Send</button>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    />
+</body>
+</html>
